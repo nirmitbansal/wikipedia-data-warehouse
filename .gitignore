@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Data (large files)
+data/raw/
+data/staging/
+
+# DuckDB
+*.duckdb
+
+# OS
+.DS_Store
+Thumbs.db
