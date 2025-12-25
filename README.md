@@ -4,18 +4,18 @@ An end-to-end data engineering project that processes large Wikipedia XML dumps 
 
 **✨ Why This Project?**
 
-✔ Designed for large-scale data processing
-✔ Demonstrates real-world ETL + data warehousing concepts
-✔ Optimized for analytics, performance, and memory efficiency
-✔ Interview-ready data engineering architecture
+✔ Designed for large-scale data processing  
+✔ Demonstrates real-world ETL + data warehousing concepts  
+✔ Optimized for analytics, performance, and memory efficiency  
+✔ Interview-ready data engineering architecture  
 
 **🧠 Project Overview**
 
 This project builds a streaming ETL pipeline that ingests massive Wikipedia XML dumps, transforms them into structured datasets, and stores them in warehouse-optimized Parquet format for analytical querying using DuckDB.
 
-🔹 No full file loading into memory
-🔹 Handles millions of records efficiently
-🔹 Built with scalability and performance in mind
+🔹 No full file loading into memory  
+🔹 Handles millions of records efficiently  
+🔹 Built with scalability and performance in mind  
 
 **🚀 Key Features**
 
