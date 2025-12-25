@@ -60,12 +60,18 @@ DuckDB Analytics
 ✔ Scalable
 ✔ Analytics-friendly
 
-**📁 Project Structure**
+## 📁 Project Structure
 
+```text
 wikipedia-data-warehouse/
 │
-├── etl/                  # ETL pipeline logic
-├── data/                 # Output Parquet files
-├── validate_parquet.py   # Data validation script
-├── requirements.txt      # Dependencies
-└── README.md             # Documentation
+├── etl/                     # ETL pipeline logic
+│   ├── main.py              # Pipeline entry point
+│   └── parser.py            # Streaming XML parser
+│
+├── data/                    # Output Parquet files
+│   └── parquet/             # Warehouse layer
+│
+├── validate_parquet.py      # Parquet data validation
+├── requirements.txt         # Project dependencies
+└── README.md                # Project documentation
